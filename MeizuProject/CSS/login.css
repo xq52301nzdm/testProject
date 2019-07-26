@@ -1,0 +1,151 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+header{
+    width:1920px;
+    height:70px;
+    background:#FFFFFF;
+    padding-top:27px;
+}
+header>div{
+    width: 110px;
+    height: 21px;
+    display: block;
+    background: url("../IMG/registerImg/精灵图logo.png") -2px -4px no-repeat;
+    overflow: hidden;
+    margin-left:360px;
+}
+section{
+    width:1920px;
+    height:750px;
+    background:#EDF9FB;
+    position: relative;
+}
+section>div{
+    width:1240px;
+    height:750px;
+    margin:0 auto;
+    background: url("../IMG/registerImg/大背景图.png") no-repeat;
+}
+section>aside{
+    width:372px;
+    height:516px;
+    background:white;
+    position: absolute;
+    top:119px;
+    right:418px
+}
+section>aside>a{
+    text-align: center;
+    display:block;
+    line-height: 160px;
+    text-decoration: none;
+    color:#387AFF;
+    font-size: 18px;
+    letter-spacing:1px;
+    font-family: "微软雅黑";
+}
+section>aside>a:hover{
+    color:#3058DF
+}
+section>aside>div{
+    width:300px;
+    margin: 0 auto;
+    height:356px;
+    padding-top:30px;
+    border:none;
+    font-size: 13px;
+    color:#515151;
+    line-height:18px;
+    letter-spacing: 2px;
+}
+section>aside>div>input{
+    width:100%;
+    height:47px;
+    border:2px solid #CCCCCC;
+    font-size: 16px;
+    color:#909090;
+    padding-left: 25px;
+    font-family: "微软雅黑";
+}
+section>aside>div>pre{
+    width:100%;
+    height:37px;
+    text-indent: 1em;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-family: "微软雅黑";
+    line-height: 37px;
+}
+section>aside>div>.chose{
+    width:13px;
+    height:15px;
+    float:left;
+    margin: 0 5px 0 0
+}
+section>aside>div>b{
+    font-weight: normal;
+    color:#387AFF
+}
+section>aside>div>b:hover{
+    cursor: pointer;
+}
+section>aside>div>button{
+    width:100%;
+    height:46px;
+    line-height: 46px;
+    text-align: center;
+    background:#387AFF;
+    font-size: 14px;
+    color:#FFFFFF;
+    font-family: "微软雅黑";
+    margin-top:10px;
+    border:none;
+    outline: none;
+}
+section>aside>div>button:hover{
+    background:#3058DF;
+    cursor: pointer;
+}
+section>aside>div>a{
+    display: block;
+    line-height: 61px;
+    margin-left:2px;
+    text-decoration: none;
+    color:#387AFF
+}
+footer{
+    width:1920px;
+    height:151px;
+    background:#FFFFFF
+}
+footer>div{
+    width:1240px;
+    height:100%;
+    margin: 0 auto;
+    /* background:red; */
+    padding-top:43px;
+}
+footer>div>ul{
+    width:-webkit-max-content;
+    margin-left:100px;
+    margin-bottom: 53px;
+}
+footer>div>ul>li{
+    list-style: none;
+    width:-webkit-max-content;
+    float:left;
+    border-right: 1px solid #888888;
+}
+footer>div>ul>li>a{
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color:#000000;
+}
+footer>div>pre{
+    margin-top:30px;
+    margin-left:110px;
+    font-size: 13px;
+    color:#7F7F7F;
+    font-family: "微软雅黑";
+}

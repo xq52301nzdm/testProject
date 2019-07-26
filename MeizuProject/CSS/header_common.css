@@ -1,0 +1,128 @@
+header{
+    width:1920px;
+    height:82px;
+    position: relative;
+    z-index: 2;
+    background:rgba(255,255,255,0)
+}
+
+header>nav{
+    width:1246px;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+    background:rgba(255,255,255,0)
+}
+
+header>nav>.logo{
+    width:126px;
+    height:24px;
+    float:left;
+    margin-top:26px;
+}
+
+header>nav>.logo img{
+    width:100%;
+    height:100%;
+}
+
+header>nav>ul{
+    margin-left:190px;
+    width:-webkit-max-content;
+    height:100%;
+    float:left
+}
+
+header>nav>ul>li{
+    width:-webkit-max-content;
+    float:left;
+    margin:0 19px;
+    height:100%;
+}
+
+header>nav>ul>li>a{
+    font-size: 13px;
+    color:#FFFFFF;
+    line-height:82px;
+}
+header>nav>input{
+    width:172px;
+    float:left;
+    height:31px;
+    margin-left:4px;
+    margin-top:26px;
+    background:white;
+    border-radius: 25px;
+    padding-top:2px;
+    padding-left:18px;
+    border:none;
+    outline: none;
+    color: #999999;
+}
+
+header>nav>pre{
+    width:-webkit-max-content;
+    height:24px;
+    float:left;
+    margin-top:28px;
+    margin-left:12px;
+    text-align: center;
+    position: relative;
+    right: -187px;
+    top:-56px;
+}
+
+header>nav>pre>a{
+    font-size: 24px;
+}
+header>nav>ul>li>a:hover{
+    color:#00B9F2
+}
+header>.display{
+    width:100%;
+    position: absolute;
+    top:82px;
+    left:0;
+    background:rgba(255,255,255,1);
+    overflow: hidden;
+}
+header>.display>.shower{
+    width:100%;
+    position: absolute;
+    height:0;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    color:gray;
+    justify-content: center;
+}
+header>.display>.shower img{
+    width:100%;
+    height:133px
+}
+header>.display>.shower>div{
+    margin:0 10px;
+    opacity: 0.5;
+}
+header>.display>.shower>div:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+header>.display>.shower>div>pre{
+    width:100%;
+    text-align: center;
+    display: block;
+}
+header>.display>.shower>div>pre>b{
+    font-size: 13px;
+    color:#333333;
+    font-family: 微软雅黑;
+    font-weight: 600;
+}
+header>.display>.shower>div>pre>a{
+    display: block;
+    font-size: 13px;
+    color:#333333;
+    font-family: 微软雅黑;
+    margin-top:6px
+}

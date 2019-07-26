@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../CSS/init.css">
+        <link rel="stylesheet" href="../iconfont/font/iconfont.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/header_common.css" />
+        <link rel="stylesheet" href="../swiper/swiper-4.5.0/dist/css/swiper.css">
+        <link rel="stylesheet" href="../CSS/index.css">
+        <title></title>
+    </head>
+    <style>
+        #putUser{
+            position: absolute;
+            right:284px;
+            width:98px;
+            z-index: 2;
+            top:60px;
+            background:#FFFFFF;
+            padding-top:7px;
+            border-radius: 5px;
+            display: none;
+        }
+        #putUser>li{
+            text-align: center;
+            margin:11px 0;
+            color:#515151;
+            font-size: 12px;
+            
+        }
+        #putUser>li:hover{
+            cursor: pointer;
+            color:#17C8F6;
+        }
+    </style>
+    <body>
+
+        <!-- 头部 -->
+      
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="../IMG/Logo.png">
+                </div>
+                <ul>
+                    <li><a href="#" class="control">手机</a></li>
+                    <li><a href="#" class="control">声学</a></li>
+                    <li><a href="#" class="control">配件</a></li>
+                    <li><a href="#" class="control">生活</a></li>
+                    <li><a href="#">Flyme</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">专卖店</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">APP下载</a></li>
+                </ul>
+
+                <input type="text" placeholder="魅族16Xs">
+                <pre class="iconfont">
+                    <a href="##" style="color:black" id="users">&#xe503;</a>
+                </pre>
+                <pre class="iconfont" id="putShop">
+                    <a href="##" style="color:black" id="shops">&#xe512;</a>
+                </pre>
+
+            </nav>
+            <div class="display">
+                <div class="shower"></div>
+                <div class="shower"></div>
+                <div class="shower"></div>
+                <div class="shower"></div>
+            </div>
+        </header>
+
+        <!-- 轮播 -->
+        <div class="swiper-container" id="lunbo">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../IMG/indexImg/轮播图一.jpg"></div>
+                <div class="swiper-slide"><img src="../IMG/indexImg/轮播图二.jpg"></div>
+                <div class="swiper-slide"><img src="../IMG/indexImg/轮播图三.jpg"></div>
+                <div class="swiper-slide"><img src="../IMG/indexImg/轮播图四.jpg"></div>
+                <div class="swiper-slide"><img src="../IMG/indexImg/轮播图五.jpg"></div>
+                <div class="swiper-slide"><img src="../IMG/indexImg/轮播图六.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- 展示的部分图片 -->
+        <div class="other">
+            <div><img src="../IMG/indexImg/展示一.png">
+                <b>魅族&nbsp;16Xs</b>
+                <a href="#">低至1499元</a>
+            </div>
+            <div><img src="../IMG/indexImg/展示二.png">
+                <b>魅族&nbsp;16s</b>
+                <a href="#">最高直降699元</a>
+            </div>
+            <div><img src="../IMG/indexImg/展示三.jpg">
+                <b>魅族&nbsp;Note9</b>
+                <a href="#">立即购买</a>
+            </div>
+            <div><img src="../IMG/indexImg/展示四.jpg">
+                <b>以旧换新</b>
+                <a href="#">免费寄件&nbsp;专业检测</a>
+            </div>
+        </div>
+
+        <!-- 上下文衔接大图一-->
+        <div class="bigImger">
+            <pre>手机</pre>
+            <div><a href="#"><img src="../IMG/indexImg/衔接图片一.jpg"></a></div>
+        </div>
+
+        <!-- 部分商品展示一 -->
+        <div class="things1">
+            <div>
+                <li class="redC">
+                    <a href="#">魅族&nbsp;16Xs</a>
+                    <b>4800W AI三摄 | 屏幕下指纹</b>
+                    <i>￥1499</i>
+                    <img src="../IMG/indexImg/直降一.png">
+                </li>
+                <li class="redC">
+                    <a href="#">魅族&nbsp;16s</a>
+                    <b>骁龙855 4800W光学防抖</b>
+                    <i>￥2699</i>
+                    <img src="../IMG/indexImg/直降二.png">
+                </li>
+            </div>
+
+            <ul>
+                <li class="redC">
+                    <img src="../IMG/indexImg/直降三.png">
+                    <a href="#">魅族&nbsp;Note9</a>
+                    <b>骁龙675&nbsp;后置4800万</b>
+                    <i>￥1199</i>
+                </li>
+                <li class="blueC">
+                    <img src="../IMG/indexImg/直降四.png">
+                    <a href="#">魅族&nbsp;16th</a>
+                    <b>骁龙845&nbsp;屏幕下指纹</b>
+                    <i>￥2298</i>
+                </li>
+                <li class="blueC">
+                    <img src="../IMG/indexImg/直降五.png">
+                    <a href="#">魅族&nbsp;16th&nbsp;Plus</a>
+                    <b>骁龙845&nbsp;屏幕下指纹</b>
+                    <i>￥2698</i>
+                </li>
+                <li class="blueC">
+                    <img src="../IMG/indexImg/直降六.png">
+                    <a href="#">魅族&nbsp;X8</a>
+                    <b>骁龙710&nbsp;旗舰双摄</b>
+                    <i>￥1298</i>
+                </li>
+            </ul>
+            <ul>
+                <li class="redC">
+                    <img src="../IMG/indexImg/直降七.png">
+                    <a href="#">魅族&nbsp;16&nbsp;X</a>
+                    <b>骁龙710&nbsp;屏幕下指纹&nbsp;旗舰双摄</b>
+                    <i>￥1598</i>
+                </li>
+                <li class="blueC">
+                    <img src="../IMG/indexImg/直降八.png">
+                    <a href="#">魅族&nbsp;16s&nbsp;白夜童话限量礼盒</a>
+                    <b>以梦为马&nbsp;乘风破浪</b>
+                    <i>￥3099</i>
+                </li>
+                <li class="blueC">
+                    <img src="../IMG/indexImg/直降九.png">
+                    <a href="#">魅族&nbsp;Note8</a>
+                    <b>全像素双核对焦&nbsp;大电池长续航</b>
+                    <i>￥999</i>
+                </li>
+                <li class="blueC">
+                    <img src="../IMG/indexImg/直降十.png">
+                    <a href="#">魅族&nbsp;15</a>
+                    <b>骁龙660&nbsp;2000万暗光双摄</b>
+                    <i>￥1498</i>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 上下文衔接图片二 -->
+        <div class="bigImger2">
+            <pre>魅族声学</pre>
+            <div></div>
+        </div>
+
+        <!-- 部分商品展示二 -->
+        <div class="things1 things2">
+            <ul>
+                <li>
+                    <a href="#">魅族 EP2C 耳机</a>
+                    <b>钕铁硼单元 Type-C接口</b>
+                    <i>￥129</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机二.png">
+                    <a href="#">魅蓝 EP52 蓝牙耳机</a>
+                    <b>轻盈悦耳 动无拘束</b>
+                    <i>￥199<span>￥299</span></i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机三.png">
+                    <a href="#">魅族 Flow Bass 三单元耳机</a>
+                    <b>延续经典，重赋新声</b>
+                    <i>￥599</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机四.png">
+                    <a href="#">魅族 EP2X 耳机</a>
+                    <b>契合声音的流动之美</b>
+                    <i>￥69<span>￥129</span></i>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">魅族 HIFI 解码耳放</a>
+                    <b>高性能DAC芯片</b>
+                    <i>￥169</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机六.png">
+                    <a href="#">魅族 Flow 三单元耳机</a>
+                    <b>用得惬意 听得尽兴</b>
+                    <i>￥379<span>￥599</span></i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机七.png">
+                    <a href="#">魅族 HALO 激光蓝牙耳机</a>
+                    <b>夜跑神器 随性张扬</b>
+                    <i>￥499<span>￥999</span></i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机八.png">
+                    <a href="#">魅族 EP51 蓝牙运动耳机</a>
+                    <b>臻享音质 自在运动</b>
+                    <i>￥229</i>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">魅族 POP2 真无线蓝牙耳机</a>
+                    <b>蓝牙5.0 超长续航</b>
+                    <i>￥399</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机十.png">
+                    <a href="#">魅族 EP52 Lite 蓝牙耳机</a>
+                    <b>超高性价比创造无线新声代</b>
+                    <i>￥129</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机十一.png">
+                    <a href="#">魅族 LIVE 四单元动铁耳机</a>
+                    <b>Knowles四动铁 双通道导音系统</b>
+                    <i>￥1099<span>￥1299</span></i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/耳机十二.png">
+                    <a href="#">魅族 Gravity 悬浮音响</a>
+                    <b>魅族声学15年集大成之作</b>
+                    <i>￥1099</i>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 上下文衔接图片三 -->
+        <div class="bigImger2 bigImger3">
+            <pre>智能配件</pre>
+            <div></div>
+        </div>
+
+        <!-- 部分商品展示三 -->
+        <div class="things1 things2 things3">
+            <ul>
+                <li>
+                    <a href="#">快充电源适配器</a>
+                    <b>快速充电 安全无忧</b>
+                    <i>￥69<span>￥89</span></i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/配件二.png">
+                    <a href="#">魅族 Type-C 金属数据线</a>
+                    <b>支持2A快速充电 耐用又放心</b>
+                    <i>￥39</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/配件三.png">
+                    <a href="#">魅族 X8 高透保护膜</a>
+                    <b>高透光率 助双眼捕捉每一颗像素的色彩</b>
+                    <i>￥19</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/配件四.png">
+                    <a href="#">魅族 16X 亲肤保护壳</a>
+                    <b>轻盈亲近 薄若无形</b>
+                    <i>￥29</i>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">魅族无线充电器</a>
+                    <b>10W快速充电 无线即放即充</b>
+                    <i>￥99</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/配件六.png">
+                    <a href="#">魅族 X8 亲肤保护壳</a>
+                    <b>轻盈亲近 薄若无形</b>
+                    <i>￥29</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/配件七.png">
+                    <a href="#">魅族 Type-C 2.0数据线</a>
+                    <b>5A大电流充电 高速传输</b>
+                    <i>￥59</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/配件八.jpg">
+                    <a href="#">魅族 16s 壳膜套装</a>
+                    <b>透明保护壳 + 高透保护膜</b>
+                    <i>￥39</i>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 上下文衔接图片四 -->
+        <div class="bigImger2 bigImger3 bigImger4">
+            <pre>生活周边</pre>
+            <div></div>
+        </div>
+
+        <!-- 部分商品展示四 -->
+        <div class="things1 things2 things3 things4">
+            <ul>
+                <li>
+
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/周边二.png">
+                    <a href="#">魅族星球探索 帆布袋</a>
+                    <b>FOR THE LOVELY ONES</b>
+                    <i>￥69<span>￥69</span></i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/周边三.png">
+                    <a href="#">魅族星球探索 鼠标垫</a>
+                    <b>FOR THE LOVELY ONES</b>
+                    <i>￥69</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/周边四.jpg">
+                    <a href="#">魅族路由器 极速版</a>
+                    <b>天生不凡 快狠稳</b>
+                    <i>￥99<span>￥199</span></i>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">魅族无线充电器</a>
+                    <b>10W快速充电 无线即放即充</b>
+                    <i>￥99</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/周边六.png">
+                    <a href="#">魅族缤纷 Mini 自拍杆</a>
+                    <b>便携轻巧</b>
+                    <i>￥49</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/周边七.png">
+                    <a href="#">Everyday 乐游系列 酷 MA 萌定制版</a>
+                    <b>萌友为伴,为出行添点乐趣</b>
+                    <i>￥599</i>
+                </li>
+                <li>
+                    <img src="../IMG/indexImg/周边八.png">
+                    <a href="#">魅族蓝牙自拍杆</a>
+                    <b>还给你自由的双手</b>
+                    <i>￥99</i>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 上下文衔接图片五 -->
+        <div class="bigImger2 bigImger3 bigImger4 bigImger5">
+            <pre>社区热帖</pre>
+            <form>
+                <ul>
+                    <li>
+                        <img src="../IMG/indexImg/社区一.jpg">
+                        <span>用户2240504</span>
+                        <p>魅族 Note9 邀请函 JK 服妹子出镜,谁才是最美游戏姬？</p>
+                        <i>魅族 Note9</i>
+                    </li>
+                    <li>
+                        <img src="../IMG/indexImg/社区二.jpg">
+                        <span>xrx3p</span>
+                        <p>摄影离不开适当的后期，好在如今你可以在魅族手机上轻松完成操作。</p>
+                        <i>摄影技巧</i>
+                    </li>
+                    <li>
+                        <img src="../IMG/indexImg/社区三.jpg">
+                        <span>小墨灰</span>
+                        <p>工作和学习中的沟通总离不开邮件,而 Flyme 邮箱的出色体验为我们带来的不只是生产力。</p>
+                        <i>功能解析</i>
+                    </li>
+                    <li>
+                        <img src="../IMG/indexImg/社区四.jpg">
+                        <span>Keicy520</span>
+                        <p>妙用 Flyme 分身，做生活和工作的「两面派」。</p>
+                        <i>功能解析</i>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="../IMG/indexImg/社区五.jpg">
+                        <span>歩惊云</span>
+                        <p>这款匠心精神打造的十五周年旗舰机，再不下手就要后悔啦~</p>
+                        <i>魅族 15</i>
+                    </li>
+                    <li>
+                        <img src="../IMG/indexImg/社区六.jpg">
+                        <span>郑金龙</span>
+                        <p>千元最强性能手机登场，高通骁龙 710 次旗舰级处理器加持，玩王者荣耀 Vulkan 模式请认准魅族 X8。</p>
+                        <i>魅族 X8</i>
+                    </li>
+                    <li>
+                        <img src="../IMG/indexImg/社区七.jpg">
+                        <span>屌丝扮海绵</span>
+                        <p>“窗含西岭千秋雪” 魅族 16th 用旗舰双摄带你领略诗句中的美景。</p>
+                        <i>魅族 16th</i>
+                    </li>
+                    <li>
+                        <img src="../IMG/indexImg/社区八.jpg">
+                        <span>醉刘的摄影狮</span>
+                        <p>准旗舰游戏拍照手机魅族 X8，不止有实力，还有最美刘海屏！</p>
+                        <i>魅族 X8</i>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+        <!-- 上下文衔接图片六 -->
+        <aside class="aside1">
+            <pre>Flyme</pre>
+            <ul>
+                <li class="firstLi"></li>
+                <li><img src="../IMG/indexImg/fly二.jpg">管理手机妙招</li>
+                <li><img src="../IMG/indexImg/fly三.jpg">全局夜间模式</li>
+            </ul>
+            <ul>
+                <li><img src="../IMG/indexImg/fly四.jpg">性能更出众</li>
+                <li><img src="../IMG/indexImg/fly五.jpg">解锁真的快</li>
+                <li><img src="../IMG/indexImg/fly六.jpg">全新魅族社区</li>
+                <li><img src="../IMG/indexImg/fly七.jpg">驾驶辅助</li>
+            </ul>
+        </aside>
+
+        <!-- 上下文衔接图片七 -->
+        <aside class="aside1 aside2">
+            <pre>精彩视频</pre>
+            <ul>
+                <li><img src="../IMG/indexImg/视频一.jpg">极边全面屏 三摄长续航：魅族 16Xs 手机
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+                <li><img src="../IMG/indexImg/视频二.jpg">追求不止 只因热爱：魅族 16s 旗舰手机
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+                <li><img src="../IMG/indexImg/视频三.jpg">时刻伴你左右：POP2 真无线蓝牙耳机
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+                <li><img src="../IMG/indexImg/视频四.jpg">静下来，更动听：EP63NC 无线降噪耳机
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+            </ul>
+            <ul>
+                <li><img src="../IMG/indexImg/视频五.jpg">Flyme 7
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+                <li><img src="../IMG/indexImg/视频六.jpg">安全家庭
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+                <li><img src="../IMG/indexImg/视频七.jpg">魅族互娱 MGC 探险嘉年华
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+                <li><img src="../IMG/indexImg/视频八.jpg">魅族 X8 游戏性能测试
+                    <div><img src="../IMG/indexImg/播放按钮.png"></div>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- 网页尾部 -->
+        <footer>
+            <div>
+                <pre>
+                    <ul>
+                        <li><img src="../IMG/indexImg/尾部一.png"><br>满80免运费</li>
+                        <li><img src="../IMG/indexImg/尾部二.png"><br>100+ 城市次日送达</li>
+                        <li><img src="../IMG/indexImg/尾部三.png"><br>7天无理由退货</li>
+                        <li><img src="../IMG/indexImg/尾部四.png"><br>15天换货保障</li>
+                        <li><img src="../IMG/indexImg/尾部五.png"><br>1年免费保修</li>
+                        <li><img src="../IMG/indexImg/尾部六.png"><br>上门快修</li>
+                    </ul>
+                    <div>
+                        <i>周一至周日 7:30-24:00</i>
+                        <b>400-788-3333</b>
+                        <span>在线客服</span>
+                    </div>
+                </pre>
+                <article>
+                    <ul>
+                        <li>了解魅族</li>
+                        <li>加入我们</li>
+                        <li>联系我们</li>
+                        <li>Flyme</li>
+                        <li>魅族社区</li>
+                        <li>天猫旗舰店</li>
+                        <li>问题反馈</li>
+                        <li>线上销售授权名单公示</li>
+                        <li>出版物经营许可证</li>
+                        <li>简体中文
+                            <ul>
+                                <li>希腊语</li>
+                                <li>英语</li>
+                                <li>繁体中文</li>
+                                <li>日语</li>
+                                <li>俄语</li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                    <next>©2019&nbsp;&nbsp;Meizu&nbsp;&nbsp;&nbsp;Telecom
+                        Equipment&nbsp;Co.,&nbsp;&nbsp;Ltd.&nbsp;All&nbsp;&nbsp;rights&nbsp;&nbsp;reserved.&nbsp;&nbsp;&nbsp;粤ICP备13003602号合字B2-20170010
+                        &nbsp;&nbsp;营业执照法律声明粤公网安备&nbsp;&nbsp;44049102496009&nbsp;号
+                        <a href="#" class="iconfont">&#xf001b;</a>
+                        <a href="#" class="iconfont">&#xe507;</a>
+                        <a href="#" class="iconfont">&#xe631;</a>
+                        <a href="#" class="iconfont">&#xe610;</a>
+                    </next>
+                </article>
+            </div>
+        </footer>
+        
+          <ul id="putUser">
+            <li>立即注册</li>
+            <li>立即登录</li>
+            <li>我的订单</li>
+            <li>M码通道</li>
+        </ul>
+    </body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="../swiper/swiper-4.5.0/dist/js/swiper.js"></script>
+<script src="../JS/header_common.js"></script>
+<script src="../JS/index.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        effect: "slide",
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'custom',
+            renderCustom: function(swiper, current, total) {
+                var paginationHtml = " ";
+                for (var i = 0; i < total; i++) {
+                    if (i === (current - 1)) {
+                        paginationHtml +=
+                            '<span class="swiper-pagination-customs swiper-pagination-customs-active"></span>';
+                    } else {
+                        paginationHtml += '<span class="swiper-pagination-customs"></span>';
+                    }
+                }
+                return paginationHtml;
+            },
+        },
+    })
+
+    var stops = true;
+    $("#users").on("click",function(){
+         if($("#putUser").css("display") == "none"){
+             stops = false;
+             $("#putUser").css("display","block");
+         }else{
+             stops = !stop;
+             $("#putUser").css("display","none");
+         }  
+    })
+    $("#putUser>li").eq(0).on("click",function(){
+        location.href = "../HTML/register.html"
+    })
+    $("#putUser>li").eq(1).on("click",function(){
+        location.href = "../HTML/login.html"
+    })
+    $("#putUser>li").eq(2).on("click",function(){
+        location.href = "../HTML/shopCar.html"
+    })
+</script>

@@ -1,0 +1,257 @@
+[{
+        "name": "魅族 Note9",
+        "color": ["幻黑", "皓白", "星耀蓝"],
+        "price": "¥ 1199.00",
+        "introduce": "【限时6期免息】【低至1199元起】 骁龙675 | 后置4800万 | 前置2000万 | 独家定制水滴设计全面屏 | 4000mAh大容量电池 | 18W mCharge快充 | 吃鸡不卡 拍她更美",
+        "bigimgs": ["../IMG/introduce/大图1.1.jpg",
+            "../IMG/introduce/大图1.2.jpg",
+            "../IMG/introduce/大图1.3.jpg",
+            "../IMG/introduce/大图1.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图1.1.jpg",
+            "../IMG/introduce/小图1.2.jpg",
+            "../IMG/introduce/小图1.3.jpg",
+            "../IMG/introduce/小图1.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 16s",
+        "color": ["碳纤黑", "凝光白", "幻影蓝"],
+        "price": "¥ 2699.00",
+        "introduce": "【限时3期免息】 高通骁龙855 | 4800W光学防抖 | 对称式AMOLED全面屏 | 极速屏下指纹 | 全功能NFC | 3600mAh大电池 | 7.6mm纤薄机身 | mEngine3.0触感引擎",
+        "bigimgs": ["../IMG/introduce/大图2.1.jpg",
+            "../IMG/introduce/大图2.2.jpg",
+            "../IMG/introduce/大图2.3.jpg",
+            "../IMG/introduce/大图2.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图2.1.jpg",
+            "../IMG/introduce/小图2.2.jpg",
+            "../IMG/introduce/小图2.3.jpg",
+            "../IMG/introduce/小图2.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 16 X",
+        "color": ["汝窑白", "晨曦金", "砚墨黑", "云山蓝", "烟晶紫"],
+        "price": "¥ 1598.00",
+        "introduce": "【限时3期免息】骁龙710 | 屏幕下指纹 | 对称式全面屏 | 前置2000万像素 + AI人脸识别 | 后置索尼2000万像素双摄 + 光学防抖",
+        "bigimgs": ["../IMG/introduce/大图3.1.jpg",
+            "../IMG/introduce/大图3.2.jpg",
+            "../IMG/introduce/大图3.3.jpg",
+            "../IMG/introduce/大图3.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图3.1.jpg",
+            "../IMG/introduce/小图3.2.jpg",
+            "../IMG/introduce/小图3.3.jpg",
+            "../IMG/introduce/小图3.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 16Xs",
+        "color": ["骑士黑", "亚特兰蒂斯", "珊瑚橙", "冰丝白"],
+        "price": "¥ 1499.00",
+        "introduce": "【橙色/白色 双风暴预警】【限时3期免息】极边全面屏 | 4800W AI三摄 | 疾速屏下指纹 | 4000mAh大电池 | 高通骁龙675 | Onemind 3.0 | 绚丽多彩新色系",
+        "bigimgs": ["../IMG/introduce/大图4.1.jpg",
+            "../IMG/introduce/大图4.2.jpg",
+            "../IMG/introduce/大图4.3.jpg",
+            "../IMG/introduce/大图4.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图4.1.jpg",
+            "../IMG/introduce/小图4.2.jpg",
+            "../IMG/introduce/小图4.3.jpg",
+            "../IMG/introduce/小图4.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 16th",
+        "color": ["静夜黑", "远山白", "极光蓝"],
+        "price": "¥ 2598.00",
+        "introduce": "【限时3期免息】【限时领券最高立减300】骁龙845 | 屏幕下指纹 | 前后2000万像素摄像头 | 6.0英寸屏幕 | 7.3mm纤薄机身 | 3倍无损变焦 | mEngine 触感引擎 | 超线性双扬声器 | 铜管散热",
+        "bigimgs": ["../IMG/introduce/大图5.1.jpg",
+            "../IMG/introduce/大图5.2.jpg",
+            "../IMG/introduce/大图5.3.jpg",
+            "../IMG/introduce/大图5.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图5.1.jpg",
+            "../IMG/introduce/小图5.2.jpg",
+            "../IMG/introduce/小图5.3.jpg",
+            "../IMG/introduce/小图5.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 16th Plus",
+        "color": ["静夜黑", "远山白", "极光蓝"],
+        "price": "¥ 2898.00",
+        "introduce": "【限时3期免息】【限时领券最高立减600】骁龙845 | 屏幕下指纹 | 前后2000万像素摄像头 | 6.5英寸屏幕 | 7.3mm纤薄机身 | 4×4 MIMO 天线 | 3倍无损变焦 | mEngine 触感引擎 | 超线性双扬声器",
+        "bigimgs": ["../IMG/introduce/大图6.1.jpg",
+            "../IMG/introduce/大图6.2.jpg",
+            "../IMG/introduce/大图6.3.jpg",
+            "../IMG/introduce/大图6.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图6.1.jpg",
+            "../IMG/introduce/小图6.2.jpg",
+            "../IMG/introduce/小图6.3.jpg",
+            "../IMG/introduce/小图6.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 X8",
+        "color": ["亮黑","玉白","幻蓝"],
+        "price": "¥ 1298.00",
+        "introduce": "【限时6期免息】【限时领券最高立减200元】骁龙710 | 6.2寸定制浅刘海屏 | 89.6%屏占比 | 旗舰双摄 | 人脸+指纹双解锁",
+        "bigimgs": ["../IMG/introduce/大图7.1.jpg",
+            "../IMG/introduce/大图7.2.jpg",
+            "../IMG/introduce/大图7.3.jpg",
+            "../IMG/introduce/大图7.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图7.1.jpg",
+            "../IMG/introduce/小图7.2.jpg",
+            "../IMG/introduce/小图7.3.jpg",
+            "../IMG/introduce/小图7.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 Note8",
+        "color": ["曜黑","灰蓝","烟紫","焰红"],
+        "price": "¥ 999.00",
+        "introduce": "【限时领券最高立减450元】【限时6期免息】骁龙632 | 6.0 英寸全面屏 | 3600mAh 大电池 | mCharge 快充加持 | Dual PD 全像素双核对焦 |人脸指纹双解锁",
+        "bigimgs": ["../IMG/introduce/大图8.1.jpg",
+            "../IMG/introduce/大图8.2.jpg",
+            "../IMG/introduce/大图8.3.jpg",
+            "../IMG/introduce/大图8.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图8.1.jpg",
+            "../IMG/introduce/小图8.2.jpg",
+            "../IMG/introduce/小图8.3.jpg",
+            "../IMG/introduce/小图8.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 15",
+        "color": ["雅金","砚墨","黛蓝","汝窑白"],
+        "price": "¥ 1498.00",
+        "introduce": "【限时领券立减200元】 【限时6期免息】骁龙660 | 2000万暗光双摄 | 3倍无损变焦 | mEngine触感引擎 | 立体声扬声器",
+        "bigimgs": ["../IMG/introduce/大图9.1.jpg",
+            "../IMG/introduce/大图9.2.jpg",
+            "../IMG/introduce/大图9.3.jpg",
+            "../IMG/introduce/大图9.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图9.1.jpg",
+            "../IMG/introduce/小图9.2.jpg",
+            "../IMG/introduce/小图9.3.jpg",
+            "../IMG/introduce/小图9.4.jpg"
+        ]
+    },
+    {
+        "name": "魅蓝 E3",
+        "color": ["香槟金","曜石黑","丹青"],
+        "price": "¥ 1799.00",
+        "introduce": "【限时领券优惠200元】骁龙636处理器 全系6G大运存",
+        "bigimgs": ["../IMG/introduce/大图10.1.jpg",
+            "../IMG/introduce/大图10.2.jpg",
+            "../IMG/introduce/大图10.3.jpg",
+            "../IMG/introduce/大图10.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图10.1.jpg",
+            "../IMG/introduce/小图10.2.jpg",
+            "../IMG/introduce/小图10.3.jpg",
+            "../IMG/introduce/小图10.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 15 Plus",
+        "color": ["雅金","砚墨","玄武灰"],
+        "price": "¥ 1998.00",
+        "introduce": "【限时领券优惠200元】三星8895处理器 2000万暗光双摄",
+        "bigimgs": ["../IMG/introduce/大图11.1.jpg",
+            "../IMG/introduce/大图11.2.jpg",
+            "../IMG/introduce/大图11.3.jpg",
+            "../IMG/introduce/大图11.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图11.1.jpg",
+            "../IMG/introduce/小图11.2.jpg",
+            "../IMG/introduce/小图11.3.jpg",
+            "../IMG/introduce/小图11.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 M15",
+        "color": ["曜岩黑","砂砾金","朱雀红"],
+        "price": "¥ 1398.00",
+        "introduce": "【限时领券优惠200元】骁龙626 前置2000万AI智能美颜",
+        "bigimgs": ["../IMG/introduce/大图12.1.jpg",
+            "../IMG/introduce/大图12.2.jpg",
+            "../IMG/introduce/大图12.3.jpg",
+            "../IMG/introduce/大图12.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图12.1.jpg",
+            "../IMG/introduce/小图12.2.jpg",
+            "../IMG/introduce/小图12.3.jpg",
+            "../IMG/introduce/小图12.4.jpg"
+        ]
+    },
+    {
+        "name": "魅蓝 6T",
+        "color": ["香槟金","曜石黑","珊瑚红"],
+        "price": "¥ 799.00",
+        "introduce": "【限时领券最高优惠200元】双摄全面屏，游戏长续航",
+        "bigimgs": ["../IMG/introduce/大图13.1.jpg",
+            "../IMG/introduce/大图13.2.jpg",
+            "../IMG/introduce/大图13.3.jpg",
+            "../IMG/introduce/大图13.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图13.1.jpg",
+            "../IMG/introduce/小图13.2.jpg",
+            "../IMG/introduce/小图13.3.jpg",
+            "../IMG/introduce/小图13.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 V8 标配版",
+        "color": ["磨砂黑","纯白"],
+        "price": "¥ 799.00",
+        "introduce": "5.7英寸HD+全面屏 智能美颜",
+        "bigimgs": ["../IMG/introduce/大图14.1.jpg",
+            "../IMG/introduce/大图14.2.jpg",
+            "../IMG/introduce/大图14.3.jpg",
+            "../IMG/introduce/大图14.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图14.1.jpg",
+            "../IMG/introduce/小图14.2.jpg",
+            "../IMG/introduce/小图14.3.jpg",
+            "../IMG/introduce/小图14.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 V8 高配版",
+        "color": ["雅金","曜黑","灰蓝","烟紫"],
+        "price": "¥ 898.00",
+        "introduce": "Helio P22 处理器 | 5.7 英寸全面屏 | 后置双摄组合 | 双色温双闪光灯 | 人脸+指纹双解锁",
+        "bigimgs": ["../IMG/introduce/大图15.1.jpg",
+            "../IMG/introduce/大图15.2.jpg",
+            "../IMG/introduce/大图15.3.jpg",
+            "../IMG/introduce/大图15.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图15.1.jpg",
+            "../IMG/introduce/小图15.2.jpg",
+            "../IMG/introduce/小图15.3.jpg",
+            "../IMG/introduce/小图15.4.jpg"
+        ]
+    },
+    {
+        "name": "魅族 16s 白夜童话限量礼盒",
+        "color": ["凝光白"],
+        "price": "¥ 3099.00",
+        "introduce": "【限时3期免息】以梦为马 乘风破浪",
+        "bigimgs": ["../IMG/introduce/大图16.1.jpg",
+            "../IMG/introduce/大图16.2.jpg",
+            "../IMG/introduce/大图16.3.jpg",
+            "../IMG/introduce/大图16.4.jpg"
+        ],
+        "smallimgs": ["../IMG/introduce/小图16.1.jpg",
+            "../IMG/introduce/小图16.2.jpg",
+            "../IMG/introduce/小图16.3.jpg",
+            "../IMG/introduce/小图16.4.jpg"
+        ]
+    }
+]

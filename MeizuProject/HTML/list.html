@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" href="../CSS/init.css">
+        <link rel="stylesheet" href="../iconfont/font/iconfont.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/header_common.css" />
+        <link rel="stylesheet" href="../swiper/swiper-4.5.0/dist/css/swiper.css">
+        <link rel="stylesheet" href="../CSS/list.css">
+    </head>
+    <body>
+        <style>
+            .finalswiper{
+            position: relative;
+        }
+        .swiper-container {
+            width:1240px;
+            height:432px;
+            margin: 0 auto;
+            background:white
+        }
+        /*自定义放置分页器小容器的样式*/
+        .swiper-pagination-custom {
+         bottom: 5%;
+         left: 0;
+         width: 100%;
+         height: 20px;
+         text-align: center;
+         /* transform: translateY(50px); */
+        }
+        /*自定义分页器的样式，这个你自己想要什么样子自己写*/
+        .swiper-pagination-customs {
+         width: 12px;
+        height: 12px;
+        display: inline-block;
+        background: #FFFFFF;
+        opacity: .3;
+        border-radius: 50%;
+        border:2px solid #A1A1A1;
+        margin: 0 5px;
+        outline: 0;
+        }
+        /*自定义分页器激活时的样式表现*/
+        .swiper-pagination-customs-active {
+        opacity: 1;
+        background-color: #A1A1A1;
+        }
+        </style>
+        <!-- 头部 -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="../IMG/Logo.png">
+                </div>
+                <ul>
+                    <li><a href="#" class="control control_list" style="color:#333333">手机</a></li>
+                    <li><a href="#" class="control control_list" style="color:#333333">声学</a></li>
+                    <li><a href="#" class="control control_list" style="color:#333333">配件</a></li>
+                    <li><a href="#" class="control control_list" style="color:#333333">生活</a></li>
+                    <li><a href="#" class="control_list">Flyme</a></li>
+                    <li><a href="#" class="control_list">服务</a></li>
+                    <li><a href="#" class="control_list">专卖店</a></li>
+                    <li><a href="#" class="control_list">社区</a></li>
+                    <li><a href="#" class="control_list">APP下载</a></li>
+                </ul>
+
+                <input type="text" placeholder="魅族16Xs">
+                <pre class="iconfont"><a href="#">&#xe503;</a></pre>
+                <pre class="iconfont"><a href="#">&#xe512;</a></pre>
+
+            </nav>
+            <div class="display">
+                <div class="shower"></div>
+                <div class="shower"></div>
+                <div class="shower"></div>
+                <div class="shower"></div>
+            </div>
+        </header>
+
+        <!-- 衔接大图 -->
+        <div class="bigImger">
+
+        </div>
+
+        <!-- 标题栏 -->
+        <div class="title">
+            <div>
+                <i>手机</i>
+                <a href="##" id="orderPrice">价格</a>
+                <a href="##">新品</a>
+                <a href="##" style="color:#00C3F5" id="recommend">推荐</a>
+            </div>
+        </div>
+
+        <!-- 商品列表区 -->
+        <div class="shopList">
+            <div class="mobileList">
+
+            </div>
+        </div>
+
+        <!-- 上下文衔接图 -->
+        <div class="bigImger2">
+            <div>
+                <img src="../IMG/listImg/上下文衔接图片二.jpg">
+                为您推荐
+            </div>
+        </div>
+
+        <!-- 页脚轮播 -->
+        <div class="finalswiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图一.jpg"><a href="##">魅族 16s</a><b>￥2699</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图二.jpg"><a href="##">魅族 POP2 真无线蓝牙耳机</a><b>￥399</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图三.jpg"><a href="##">魅族 16 X</a><b>￥1598</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图四.jpg"><a href="##">魅族 EP63NC 无线降噪耳机</a><b>￥499</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图六.jpg"><a href="##">魅族X8</a><b>￥1499</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图七.jpg"><a href="##">魅族 16 X</a><b>￥1598</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图八.jpg"><a href="##">魅族 EP63NC 无线降噪耳机</a><b>￥499</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图十.jpg"><a href="##">魅族 X8</a><b>￥1298</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图十一.jpg"><a href="##">魅族 Note9</a><b>￥1398</b></div>
+                    <div class="swiper-slide"><img src="../IMG/listImg/轮播小图十二.jpg"><a href="##">魅族移动电源3</a><b>￥79</b></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 网页尾部 -->
+        <footer>
+            <div>
+                <pre>
+                    <ul>
+                        <li><img src="../IMG/indexImg/尾部一.png"><br>满80免运费</li>
+                        <li><img src="../IMG/indexImg/尾部二.png"><br>100+ 城市次日送达</li>
+                        <li><img src="../IMG/indexImg/尾部三.png"><br>7天无理由退货</li>
+                        <li><img src="../IMG/indexImg/尾部四.png"><br>15天换货保障</li>
+                        <li><img src="../IMG/indexImg/尾部五.png"><br>1年免费保修</li>
+                        <li><img src="../IMG/indexImg/尾部六.png"><br>上门快修</li>
+                    </ul>
+                    <div>
+                        <i>周一至周日 7:30-24:00</i>
+                        <b>400-788-3333</b>
+                        <span>在线客服</span>
+                    </div>
+                </pre>
+                <article>
+                    <ul>
+                        <li>了解魅族</li>
+                        <li>加入我们</li>
+                        <li>联系我们</li>
+                        <li>Flyme</li>
+                        <li>魅族社区</li>
+                        <li>天猫旗舰店</li>
+                        <li>问题反馈</li>
+                        <li>线上销售授权名单公示</li>
+                        <li>出版物经营许可证</li>
+                        <li>简体中文
+                            <ul>
+                                <li>希腊语</li>
+                                <li>英语</li>
+                                <li>繁体中文</li>
+                                <li>日语</li>
+                                <li>俄语</li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                    <next>©2019&nbsp;&nbsp;Meizu&nbsp;&nbsp;&nbsp;Telecom
+                        Equipment&nbsp;Co.,&nbsp;&nbsp;Ltd.&nbsp;All&nbsp;&nbsp;rights&nbsp;&nbsp;reserved.&nbsp;&nbsp;&nbsp;粤ICP备13003602号合字B2-20170010
+                        &nbsp;&nbsp;营业执照法律声明粤公网安备&nbsp;&nbsp;44049102496009&nbsp;号
+                        <a href="#" class="iconfont">&#xf001b;</a>
+                        <a href="#" class="iconfont">&#xe507;</a>
+                        <a href="#" class="iconfont">&#xe631;</a>
+                        <a href="#" class="iconfont">&#xe610;</a>
+
+                    </next>
+                </article>
+            </div>
+        </footer>
+    </body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<script src="../swiper/swiper-4.5.0/dist/js/swiper.js"></script>
+<script src="../JS/header_common.js"></script>
+<script src="../JS/list.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        effect: "slide",
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'custom',
+            renderCustom: function(swiper, current, total) {
+                var paginationHtml = " ";
+                for (var i = 0; i < total; i++) {
+                    if (i === (current - 1)) {
+                        paginationHtml +=
+                            '<span class="swiper-pagination-customs swiper-pagination-customs-active"></span>';
+                    } else {
+                        paginationHtml += '<span class="swiper-pagination-customs"></span>';
+                    }
+                }
+                return paginationHtml;
+            },
+        },
+    })
+
+    $(".swiper-slide").hover(
+        function() {
+            $(this).children("img").css({
+                "width": "255px",
+                "height": "255px"
+            })
+        },
+        function() {
+            $(this).children("img").css({
+                "width": "240px",
+                "height": "240px"
+            })
+        })
+
+
+    // alert(1)
+   
+    // location.href = "./ceshi2.html"
+</script>

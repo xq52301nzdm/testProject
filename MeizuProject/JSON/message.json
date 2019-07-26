@@ -1,0 +1,124 @@
+[{
+    "name": ["魅族 Note9", "魅族 16s", "魅族 16th", "魅族 16th Plus", "魅族 16 X", "魅族 16Xs"],
+    "color": [{
+            "colors": ["幻黑", "皓白", "星耀蓝"]
+        },
+        {
+            "colors": ["碳纤黑", "凝光白", "幻影蓝"]
+        },
+        {
+            "colors": ["静夜黑", "远山白", "极光蓝"]
+        },
+        {
+            "colors": ["静夜黑", "远山白", "极光蓝"]
+        },
+        {
+            "colors": ["汝窑白", "晨曦金", "砚墨黑", "砚墨黑", "烟晶紫"]
+        },
+        {
+            "colors": ["骑士黑", "亚特兰蒂斯", "珊瑚橙", "冰丝白"]
+        }
+    ],
+    "price": ["¥ 1299.00", "¥ 2699.00", "¥ 2298.00", "¥ 2698.00", "¥ 1598.00", "¥ 1699.00"],
+    "bigimgs": {
+        "1": ["../IMG/messageImg/详情页大图1.1A.jpg",
+            "../IMG/messageImg/详情页大图1.2A.jpg",
+            "../IMG/messageImg/详情页大图1.3A.jpg",
+            "../IMG/messageImg/详情页大图1.4A.jpg"
+        ],
+        "2": ["../IMG/messageImg/详情页大图1.1B.jpg",
+            "../IMG/messageImg/详情页大图1.2B.jpg",
+            "../IMG/messageImg/详情页大图1.3B.jpg",
+            "../IMG/messageImg/详情页大图1.4B.jpg"
+        ],
+        "3": ["../IMG/messageImg/详情页大图1.1C.jpg",
+            "../IMG/messageImg/详情页大图1.2C.jpg",
+            "../IMG/messageImg/详情页大图1.3C.jpg",
+            "../IMG/messageImg/详情页大图1.4C.jpg"
+        ],
+        "4": ["../IMG/messageImg/详情页大图1.1D.jpg",
+            "../IMG/messageImg/详情页大图1.2D.jpg",
+            "../IMG/messageImg/详情页大图1.3D.jpg",
+            "../IMG/messageImg/详情页大图1.4D.jpg"
+        ],
+        "5": ["../IMG/messageImg/详情页大图1.1E.jpg",
+            "../IMG/messageImg/详情页大图1.2E.jpg",
+            "../IMG/messageImg/详情页大图1.3E.jpg",
+            "../IMG/messageImg/详情页大图1.4E.jpg"
+        ],
+        "6": ["../IMG/messageImg/详情页大图1.1F.jpg",
+            "../IMG/messageImg/详情页大图1.2F.jpg",
+            "../IMG/messageImg/详情页大图1.3F.jpg",
+            "../IMG/messageImg/详情页大图1.4F.jpg"
+        ]
+
+    },
+    "smallimgs": {
+        "1": ["../IMG/messageImg/详情页小图1.1A.jpg",
+            "../IMG/messageImg/详情页小图1.2A.jpg",
+            "../IMG/messageImg/详情页小图1.3A.jpg",
+            "../IMG/messageImg/详情页小图1.4A.jpg"
+        ],
+        "2": ["../IMG/messageImg/详情页小图1.1B.jpg",
+            "../IMG/messageImg/详情页小图1.2B.jpg",
+            "../IMG/messageImg/详情页小图1.3B.jpg",
+            "../IMG/messageImg/详情页小图1.4B.jpg"
+        ],
+        "3": ["../IMG/messageImg/详情页小图1.1C.jpg",
+            "../IMG/messageImg/详情页小图1.2C.jpg",
+            "../IMG/messageImg/详情页小图1.3C.jpg",
+            "../IMG/messageImg/详情页小图1.4C.jpg"
+        ],
+        "4": ["../IMG/messageImg/详情页小图1.1D.jpg",
+            "../IMG/messageImg/详情页小图1.2D.jpg",
+            "../IMG/messageImg/详情页小图1.3D.jpg",
+            "../IMG/messageImg/详情页小图1.4D.jpg"
+        ],
+        "5": ["../IMG/messageImg/详情页小图1.1E.jpg",
+            "../IMG/messageImg/详情页小图1.2E.jpg",
+            "../IMG/messageImg/详情页小图1.3E.jpg",
+            "../IMG/messageImg/详情页小图1.4E.jpg"
+        ],
+        "6": ["../IMG/messageImg/详情页小图1.1F.jpg",
+            "../IMG/messageImg/详情页小图1.2F.jpg",
+            "../IMG/messageImg/详情页小图1.3F.jpg",
+            "../IMG/messageImg/详情页小图1.4F.jpg"
+        ]
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}, {
+
+}]
